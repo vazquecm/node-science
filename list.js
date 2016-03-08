@@ -21,22 +21,16 @@ class List {
 
     this.tail = node
   }
+    get (index) {
+      let current = this.head
 
-  removeTail () {
-    let current = this.head
-
-    while (current.next !== this.tail) {
-      current = current.next
-    }
-
-    removeHead () {
-      this.head = this.head.next
-
-      if (!this.head) {
-        this.tail = null
+      while (index > 0) {
+        current = current.next
+        index--
       }
+
+      return current
     }
-  }
 
 
 const list = new List
