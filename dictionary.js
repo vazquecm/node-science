@@ -1,26 +1,19 @@
 'use strict'
 
-class Dictionary {
-  constructor () {
-    const this.data = []
-  }
+function Dictionary {
+  const data = []
 
-  add (index, value) {
-    this data[index] = value
-  }
+  this.add = (index, value) => {
 
-  find (index) {
-    rreturn this.data[index]
+    data[index] = value
   }
-
-  remove (index) {
-    delete this.data[index]
+  this.find = (index) => {
+    return data[index]
   }
-
-  showAll () {
+  this.showAll = () => {
     Object
-    .keys(this.data)
+    .keys(data)
     .sort()
-    .forEach(key => console.log(key this.data[key]))
+    .forEach(key => console.log(key, data[key]))
   }
 }
