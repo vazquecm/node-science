@@ -1,0 +1,23 @@
+{
+  "name": "node-science",
+  "version": "1.0.0",
+  "description": "##Nasville Software School - Cohort 11",
+  "main": "dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vazquecm/node-science.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vazquecm/node-science/issues"
+  },
+  "homepage": "https://github.com/vazquecm/node-science#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.6.1"
+  }
+}
